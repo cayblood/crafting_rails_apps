@@ -54,6 +54,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.18)
+    mini_portile2 (2.5.1)
     minitest (3.0.1)
     minitest-reporters (0.7.1)
       ansi
@@ -61,7 +62,9 @@ GEM
       minitest (>= 2.0, < 4.0)
       ruby-progressbar
     multi_json (1.3.6)
-    nokogiri (1.5.2)
+    nokogiri (1.11.5)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     polyglot (0.3.3)
     prawn (0.8.4)
       prawn-core (>= 0.8.4, < 0.9)
@@ -70,6 +73,7 @@ GEM
     prawn-core (0.8.4)
     prawn-layout (0.8.4)
     prawn-security (0.8.4)
+    racc (1.5.2)
     rack (1.2.5)
     rack-mount (0.6.14)
       rack (>= 1.0.0)
